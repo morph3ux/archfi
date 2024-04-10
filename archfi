@@ -92,6 +92,7 @@ chooselanguage(){
 	options+=("Norwegian" "(By mrboen94)")
 	options+=("Polish" "(By dawidd6)")
 	options+=("Portuguese" "(By hugok)")
+	options+=("Romanian" "(By morph3ux)")
 	options+=("Russian" "(By Anonymous_Prodject)")
 	options+=("Spanish" "(By Mystogab)")
 	options+=("Turkish" "(By c0b41)")
