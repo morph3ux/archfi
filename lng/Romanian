@@ -1,0 +1,111 @@
+# Arch Linux Fast Install (archfi)
+# --------------------------------
+# project    : https://github.com/MatMoul/archfi
+# language   : Français
+# translator : morph3ux (morph3ux, adrian@peslar.com)
+# notes      : misc text...
+
+locale=ro_RO.UTF-8
+font=lat2-16
+
+txtexit="Ieșire"
+txtback="Înapoi"
+txtignore="Ignoră"
+
+txtselectserver="Selectează serverul sursă :"
+
+txtmainmenu="Meniu Principal"
+txtlanguage="Limbă"
+txtsetkeymap="Setează Aranjamentul Tastaturii"
+txteditor="Editor"
+txtdiskpartmenu="Partiții Disk"
+txtselectpartsmenu="Selectează Partițiile și Instalează"
+txthelp="Ajutor"
+txtchangelog="Jurnal de modificări"
+txtreboot="Repornire"
+
+txtautoparts="Partiții Automate"
+txteditparts="Editează Partițiile"
+
+txtautopartsconfirm="Dispozitiv selectat : %1\\n\\nToate datele vor fi șterse ! \\n\\nContinuați ?"
+txtautopartclear="Șterge toate datele partiției"
+txtautopartcreate="Creează partiția %1"
+txthybridpartcreate="Setează MBR hibrid"
+txtautopartsettype="Setează tipul partiției %1"
+
+txtselectdevice="Selectează dispozitivul %1 :"
+txtselecteddevices="Dispozitive selectate :"
+
+txtformatmountmenu="Formatează și Montează"
+txtformatdevices="Formatează Dispozitivele"
+txtformatdevice="Formatează Dispozitivul"
+txtmount="Montează"
+txtunmount="Demontează"
+txtmountdesc="Instalează sau Config"
+
+txtformatdeviceconfirm="Atenție, toate datele de pe dispozitivele selectate vor fi șterse ! \\nFormatează dispozitivele ?"
+txtselectpartformat="Selectează formatul partiției pentru %1 :"
+txtformatingpart="Formatează partiția %1 ca"
+txtcreateluksdevice="Creează dispozitivul luks :"
+txtopenluksdevice="Deschide dispozitivul luks :"
+txtluksdevicecreated="dispozitivul luks a fost creat !"
+
+txtinstallmenu="Meniu de Instalare"
+
+txtarchinstallmenu="Meniu de Instalare Arch"
+
+txtselectmirrorsbycountry="Selectează oglinzile după țară"
+txtselectcountry="Selectează țara"
+txteditmirrorlist="Editează lista de oglinzi"
+txtinstallarchlinux="Instalează Arch Linux"
+txtinstallarchlinuxkernel="Kernel"
+txtinstallarchlinuxfirmwares="Firmware-uri"
+txtinstallarchlinuxfilesystems="Sisteme de Fișiere"
+txtinstallarchlinuxcustompackagelist="Listă Personalizată de Pachete"
+txtconfigarchlinux="Configurare Arch Linux"
+
+txtsethostname="Setează Numele Computerului"
+txtsetfont="Setează Fontul"
+txtsetlocale="Setează Localizarea"
+txtsettime="Setează Timpul"
+txtsetrootpassword="Setează parola root"
+
+txthwclock="Ceas hardware :"
+txthwclockutc="UTC"
+txthwclocklocal="Local"
+
+txtbootloader="Bootloader"
+txtbootloadermenu="Alegeți bootloader-ul dvs."
+
+txtefibootmgr="efibootmgr este necesar pentru computerele EFI."
+
+txtbootloadergrubmenu="Meniu de Instalare Grub"
+txtrungrubmakeconfig="Execută grub-mkconfig ?"
+txtgrubluksdetected="Partiție root criptată !\\n\\nAdaugă cryptdevice= la GRUB_CMDLINE_LINUX în /etc/default/grub ?"
+
+txtbootloadersyslinuxmenu="Meniu de Instalare Syslinux"
+txtsyslinuxaddefibootmgr="Instalarea EFI necesită efibootmgr"
+txtsyslinuxaddgptfdisk="Discul GPT necesită gptfdisk"
+txtsyslinuxaddmtools="Partiția de boot FAT necesită mtools"
+
+txtbootloadersystemdmenu="Meniu de Instalare Systemd-boot"
+
+txtbootloaderrefindmenu="Meniu de Instalare rEFInd"
+
+txtextrasmenu="Extra"
+
+txtoptional="Opțional"
+txtrecommandeasyinst="Recomandat pentru instalare ușoară"
+txtset="Setează %1"
+txtgenerate="Generează %1"
+txtedit="Editează %1"
+txtinstall="Instalează %1"
+txtenable="Activează %1"
+
+txtpressanykey="Apasă orice tastă pentru a continua."
+
+txtarchdidesc="Script complet de instalare desktop"
+txtinstallarchdi="Arch Linux Desktop Install (archdi) este un al doilea script care te poate ajuta să instalezi un workstation complet.\\n\\nPoți doar să lansezi scriptul sau să-l instalezi. Alege din meniul următor.\\n\\nArch Linux Desktop Install are două dependințe: wget și libnewt.\\n\\npacstrap wget libnewt ?"
+txtarchdiinstallandlaunch="Instalează și rulează archdi"
+txtarchdiinstall="Instalează archdi"
+txtarchdilaunch="Lansează archdi"
